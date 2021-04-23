@@ -11,7 +11,7 @@ router.post("/addCategory", validations.categoryValidation , categoryController.
 
 router.get("/getCategory/:id", categoryController.getCategory)
 
-router.post("/updateCategory", validations.categoryValidation, categoryController.updateCategory)
+router.post("/updateCategory",validations.categoryValidation,  categoryController.updateCategory)
 
 router.get("/deleteCategory/:id", categoryController.deleteCategory)
 
