@@ -15,4 +15,6 @@ router.post("/updateCategory", categoryController.updateCategory)
 router.get("/deleteCategory/:id", categoryController.deleteCategory)
 
 
-router.get("/" , categoryController.getCategories)
+router.get("/" , categoryController.getCategories);
+
+module.exports = router;
